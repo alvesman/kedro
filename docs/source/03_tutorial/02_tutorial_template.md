@@ -52,7 +52,7 @@ The dependencies above may be sufficient for some projects, but for the spacefli
 pip install kedro[pandas.CSVDataSet,pandas.ExcelDataSet]
 ```
 
-Alternatively, if you need to, you can edit `src/requirements.txt` directly to modify your list of dependencies by replacing the requirement `kedro==0.17.0` with the following (your version of Kedro may be different):
+Alternatively, if you need to, you can edit `src/requirements.in` directly to modify your list of dependencies by replacing the requirement `kedro==0.17.0` with the following (your version of Kedro may be different):
 
 ```text
 kedro[pandas.CSVDataSet,pandas.ExcelDataSet]==0.17.0
